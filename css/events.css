@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    /* background: #aaa; */
+}
+
+.main-header-container{
+    width: 100%;
+    height: calc(75vh + 5vw);
+    margin: 0 auto;
+    /* Rainbow  */
+    /* background-image: url(https://media.giphy.com/media/xUPGcoeymFuvT4NnFu/giphy.gif); */
+    /* Starfield  */
+    /* background-image: url(https://media.giphy.com/media/xUA7bfDro97ipc4fu0/giphy.gif); */
+    background-image: url(../assets/header_bg.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -5vw;
+}
+
+.main-header{
+    margin: 25px 0;
+    font-size: 4.5rem;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    color: rgb(192, 14, 14);
+}
+
+.tagline{
+    width: 70%;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.goto_events_section{
+    margin: 30px 0;
+    padding: 16px;
+    border-radius: 50px;
+    background: rgb(192, 14, 14);
+}
+
+.goto_events_section i{
+    color: rgb(252, 252, 48);
+}
+
+.events-container{
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+
+
