@@ -23,6 +23,7 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 .row {
     margin-bottom: 50px;
     margin-left: 100px;
+    margin-top: 50px;
 }
 .container{
   width: 650px;
